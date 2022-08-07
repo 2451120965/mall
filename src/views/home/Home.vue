@@ -18,7 +18,7 @@
     <!-- 商品列表 -->
     <div v-for="item in goods['pop'].list" :key="item.iid">
       <a :href="item.link">
-        <img :src="item.show.img" alt="">
+        <img :src="item.show.img" alt=""> 
       </a>
     </div>
 
